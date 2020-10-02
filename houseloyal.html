@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Party Loyality</h1>
+    <p>Those who consider themselves to be strong partisans, strong Democrats and strong Republicans respectively, tend to be the most faithful in voting for their party's nominee for office and legislation that backs their party's agenda.</p>
+    <h2>House at a galance</h2>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Party</th>
+            <th scope="col">Number of Representatives</th>
+            <th scope="col">Voted with party%</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+            <tr id="row1">
+                <td>Republican</td>
+            </tr>
+            <tr id="row2">
+                <td>Democrat</td>
+            </tr>
+            <tr id="row3">
+                <td>Independent</td>
+            </tr>
+            <tr id="row4">
+                <td>Total</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Least Loyal(Bottom 10% of Party)</h3>
+    
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Party</th>
+            <th scope="col">Total Party votes</th>
+            <th scope="col">Votes with Party%</th>
+          </tr>
+          </thead>
+        <tbody id="Least-Loyal">
+
+        </tbody>
+    </table>
+    <h4>Most Loyal(Top 10% of Party)</h4>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Party</th>
+            <th scope="col">Total Party votes</th>
+            <th scope="col">Votes with Party%</th>
+          </tr>
+        
+        </thead>
+        <tbody id="Most-Loyal">
+
+        </tbody>
+    </table>
+            
+            <script src="pro-congress-113-house.js"></script>
+            <script src="houseloyal.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+</body>
+</html>
